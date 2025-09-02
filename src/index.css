@@ -134,7 +134,7 @@ code {
 
 .divider {
   height: 2px;
-  background-color: red;
+  background-color: white;
   margin: 0.5rem 0 1rem 0; /* ← arriba: separación con el título, abajo: separación con lo que sigue */
   position: relative;
   z-index: 1;
