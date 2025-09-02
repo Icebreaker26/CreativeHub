@@ -134,7 +134,7 @@ max-width: 90vw;
   text-align: left;
   height: 100%;
   color: #f0f0f0;
-  padding-top: 8vh;
+  padding-top: 12vh;
   padding-left: 3vw;
   padding-right: 3vw;
 
@@ -263,6 +263,7 @@ animation: draw 5s linear infinite forwards;
 
   .section-hero h1 {
     width: 100%;
+    font-size: 5vw;
   }
 
   .section-hero p {
