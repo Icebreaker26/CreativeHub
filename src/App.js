@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="section-hero">
-        <h1>¡Hola! mi nombre es Alejandro Torres</h1>
+        <h1>¡Hola! Soy Alejandro Torres</h1>
         <div className="divider"></div>
         
         <div className="content">

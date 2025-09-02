@@ -58,11 +58,27 @@ code {
   text-align: left;
   width: 100%;
   font-weight: 700;
+max-width: 90vw;
 
   position: relative;
   z-index: 1; /* Se pone por encima de la línea */
 
+  animation: typing 2s steps(20), blink .5s infinite step-end alternate;
+    overflow: hidden;
+        white-space: nowrap;
+    border-right: 4px solid;
+
+
 }
+
+ @keyframes typing {
+    from { width: 0 }
+
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent }
+  }
 
 .section-hero .divider {
   width: 86%;
@@ -107,6 +123,7 @@ code {
   
 }
 
+
 .section .left,
 .section .right {
   
@@ -121,8 +138,18 @@ code {
   padding-left: 3vw;
   padding-right: 3vw;
 
+    transition: background-color 0.3s ease;
+
+
 
 }
+
+.section .left:hover,
+.section .right:hover {
+    filter: brightness(120%); /* vuelve al brillo normal */
+    cursor: pointer; /* cambia el cursor para indicar que es clickeable */
+}
+
 
 
 .project-title {
@@ -200,6 +227,22 @@ code {
   height: 100%;
   z-index: 0; /* Se va al fondo */
   pointer-events: none; /* No bloquea clicks */
+
+   
+animation: draw 5s linear infinite forwards;
+
+  stroke-dasharray: 400;
+  stroke-dashoffset: 800;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  
+
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 5;
+  }
 }
 
 /* 📱 Responsivo para móviles */
@@ -219,7 +262,7 @@ code {
   }
 
   .section-hero h1 {
-    width: 80%;
+    width: 100%;
   }
 
   .section-hero p {
