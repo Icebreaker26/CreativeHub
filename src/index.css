@@ -104,6 +104,7 @@ code {
   background-color: #f0f0f0;
   margin-top: 0;
   display: flex;
+  
 }
 
 .section .left,
@@ -116,8 +117,11 @@ code {
   text-align: left;
   height: 100%;
   color: #f0f0f0;
-  padding: 2rem; /* puedes ajustar según necesites */
-  padding-top: 4  rem;
+  padding-top: 8vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
+
+
 }
 
 
@@ -238,13 +242,18 @@ code {
 
   .section .left,
   .section .right {
-    width: 100% !important;
-    height: 30vh;
+    width: 100%;
+    height: 40vh;
 
     display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start; /* importante */
+  padding-top: 8vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  
+  
   }
 
   .project-title {
@@ -256,12 +265,20 @@ code {
   z-index: 1;
 
 }
+.divider {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 80%;
+  background-color: white;
+}
+
 
 .divider::before {
   content: "";
   display: block;
   height: 2px;
-  width: 100%;
+  width: 80%;
   background-color: white;
 }
 
