@@ -1,13 +1,287 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  overflow-x: hidden;
+  position: relative;
+
+  font-family: "Montserrat", sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+footer{
+  margin-top: 0;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #001d3d;
+  color: white;
+  font-size: 14px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* puedes cambiar 400, 500, 700 según el peso */
+  font-style: normal;
+}
+.londrina {
+  font-family: "Londrina Sketch", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400; /* puedes cambiar 400, 500, 700 según el peso */
+  font-style: normal;
+}
+
+
+/* Sección principal */
+.section-hero {
+  width: 100vw;
+  height: 70vh;
+  background-color: #001d3d;
+  margin-top: 0;
+  padding-top: 20vh;
+  padding-left: 10vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  
+
+}
+
+.section-hero h1 {
+  color: white;
+  text-align: left;
+  width: 100%;
+  font-weight: 700;
+
+  position: relative;
+  z-index: 1; /* Se pone por encima de la línea */
+
+}
+
+.section-hero .divider {
+  width: 86%;
+  height: 2px;
+  background-color: white;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+
+.section-hero .content {
+  display: flex;
+  width: 100%;
+  position: relative;
+  z-index: 1; /* Se pone por encima de la línea */
+
+}
+
+.section-hero p {
+  color: white;
+  width: 60%;
+  margin-top: 2vh;
+  font-size: 15px;
+  text-align: justify;
+  font-weight: 200;
+}
+
+.section-hero .btn-container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+}
+
+/* Secciones de bloques */
+.section {
+  width: 100vw;
+  height: 50vh;
+  background-color: #f0f0f0;
+  margin-top: 0;
+  padding-top: 0;
+  display: flex;
+}
+
+.section .left,
+.section .right {
+  
+   display: flex;
+  flex-direction: column; 
+  justify-content: flex-start; /* 🔑 en lugar de center */
+  align-items: flex-start;     /* opcional, alinea a la izquierda */
+  text-align: left;
+  height: 100%;
+  color: #f0f0f0;
+  padding: 2rem; /* puedes ajustar según necesites */
+  padding-top: 4  rem;
+}
+
+
+.project-title {
+  
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0; /* no empuja hacia abajo */
+  position: relative;
+  z-index: 1;
+
+}
+
+.divider {
+  height: 2px;
+  background-color: red;
+  margin: 0.5rem 0 1rem 0; /* ← arriba: separación con el título, abajo: separación con lo que sigue */
+  position: relative;
+  z-index: 1;
+    width: 100%;               /* ← ocupa todo el ancho disponible */
+
+
+}
+
+.project-subtitle {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+  z-index: 1; /* Se pone por encima de la línea */
+
+}
+
+.project-tech {
+  font-size: 0.9rem;
+  opacity: 0.9; /* un poquito más suave */
+  position: relative;
+  z-index: 1; /* Se pone por encima de la línea */
+
+}
+
+.section-1 .left {
+  width: 40%;
+  background-color: #cca31b;
+}
+
+.section-1 .right {
+  width: 60%;
+  background-color: #003566;
+}
+
+.section-2 .left {
+  width: 60%;
+  background-color: #005f73;
+}
+
+.section-2 .right {
+  width: 40%;
+  background-color: #ee9b00;
+}
+
+.section-3 .left {
+  width: 40%;
+  background-color: #e85d04;
+}
+
+.section-3 .right {
+  width: 60%;
+  background-color: #0077b6;
+}
+
+.background-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* Se va al fondo */
+  pointer-events: none; /* No bloquea clicks */
+}
+
+/* 📱 Responsivo para móviles */
+@media (max-width: 768px) {
+  .background-line {
+    display: none;
+  }
+  .section-hero {
+    padding-left: 5vw;
+    padding-top: 10vh;
+    height: auto;
+  }
+
+  .section-hero .content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section-hero h1 {
+    width: 80%;
+  }
+
+  .section-hero p {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .section-hero .btn-container {
+    width: 100%;
+    margin-top: 3vh;
+    margin-bottom:3vh;
+
+    justify-content: flex-start;
+  }
+
+  .section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .section .left,
+  .section .right {
+    width: 100% !important;
+    height: 30vh;
+
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; /* importante */
+  }
+
+  .project-title {
+  
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0; /* no empuja hacia abajo */
+  position: relative;
+  z-index: 1;
+
+}
+
+.divider::before {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: white;
+}
+
+.project-subtitle {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+  z-index: 1; /* Se pone por encima de la línea */
+
+}
+
+.project-tech {
+  font-size: 0.9rem;
+  opacity: 0.9; /* un poquito más suave */
+  position: relative;
+  z-index: 1; /* Se pone por encima de la línea */
+
+}
+
+
+
 }
