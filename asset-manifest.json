@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/creativehub/static/css/main.2f23dbf7.css",
-    "main.js": "/creativehub/static/js/main.101a2eff.js",
-    "static/js/453.b4411807.chunk.js": "/creativehub/static/js/453.b4411807.chunk.js",
-    "static/media/logo.svg": "/creativehub/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/creativehub/index.html",
-    "main.2f23dbf7.css.map": "/creativehub/static/css/main.2f23dbf7.css.map",
-    "main.101a2eff.js.map": "/creativehub/static/js/main.101a2eff.js.map",
-    "453.b4411807.chunk.js.map": "/creativehub/static/js/453.b4411807.chunk.js.map"
+    "main.css": "/CreativeHub/static/css/main.2f23dbf7.css",
+    "main.js": "/CreativeHub/static/js/main.6b1cc4ca.js",
+    "static/js/453.b4411807.chunk.js": "/CreativeHub/static/js/453.b4411807.chunk.js",
+    "static/media/logo.svg": "/CreativeHub/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/CreativeHub/index.html",
+    "main.2f23dbf7.css.map": "/CreativeHub/static/css/main.2f23dbf7.css.map",
+    "main.6b1cc4ca.js.map": "/CreativeHub/static/js/main.6b1cc4ca.js.map",
+    "453.b4411807.chunk.js.map": "/CreativeHub/static/js/453.b4411807.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f23dbf7.css",
-    "static/js/main.101a2eff.js"
+    "static/js/main.6b1cc4ca.js"
   ]
 }
