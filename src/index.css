@@ -261,7 +261,14 @@ animation: draw 5s linear infinite forwards;
   margin-bottom: 2vh;
 }
 
+.preview{
 
+width:50%;
+margin-Top:2vh;
+margin-Bottom:2vh;
+border-Radius: 8px;
+
+}
 /* 📱 Responsivo para móviles */
 @media (max-width: 768px) {
   .background-line {
@@ -375,6 +382,10 @@ animation: draw 5s linear infinite forwards;
   height: 2px;
   width: 100%;
   background-color: white;
+}
+
+.preview{
+  width: 100%;
 }
 
 }
