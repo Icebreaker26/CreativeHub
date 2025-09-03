@@ -29,7 +29,7 @@ const About = ({irAPagina}) => {
 
           </p>
           <div className="btn-container">
-            <Button variant="outline-light" style={{ width: "30%" }} onClick={() => irAPagina("Principal")}>
+            <Button variant="outline-light" style={{width: "40%", whiteSpace: "nowrap"}} onClick={() => irAPagina("Principal")}>
               Volver a Inicio
             </Button>
           </div>
