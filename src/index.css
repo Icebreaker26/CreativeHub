@@ -252,6 +252,16 @@ animation: draw 5s linear infinite forwards;
   }
 }
 
+.dividerFor{
+
+  width: 100%;
+  height: 2px;
+  background-color: white;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+
+
 /* 📱 Responsivo para móviles */
 @media (max-width: 768px) {
   .background-line {
@@ -358,4 +368,13 @@ animation: draw 5s linear infinite forwards;
   width: 100%;
   font-size: 100%;
 }
+
+.dividerFor{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: white;
+}
+
 }
