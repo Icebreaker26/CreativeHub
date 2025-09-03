@@ -239,6 +239,13 @@ animation: draw 5s linear infinite forwards;
 
 }
 
+.sectionLink {
+    padding-Left:10vw;
+  text-align: left;
+  padding-Top:2vh;
+  padding-Right:5vw;
+}
+
 @keyframes draw {
   to {
     stroke-dashoffset: 5;
@@ -342,6 +349,9 @@ animation: draw 5s linear infinite forwards;
 
 }
 
+.sectionLink {
+  padding-left: 5vw;
+  padding-right: 5vw;
 
-
+}
 }
