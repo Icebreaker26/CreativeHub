@@ -44,7 +44,7 @@ const Cooperativa = ({irAPagina}) => {
              <div className="sectionLink" >
        <div style={{backgroundColor:"white", padding:"2vh", borderRadius:"8px", marginTop:"2vh", marginBottom:"2vh"}}>  
 
-        <h4 style={{fontWeight:"300", fontStyle:"italic"}}>WWW.COOPERATIVAPROGRESEMOS.COOP</h4>
+        <h5 style={{fontWeight:"300", fontStyle:"italic", whiteSpace:"nowrap"}}>WWW.COOPERATIVAPROGRESEMOS.COOP</h5>
         <h3 style={{fontWeight:"700"}}>Previews</h3>
 
 

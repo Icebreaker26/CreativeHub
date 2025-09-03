@@ -72,7 +72,7 @@ const Principal = ({ irAPagina }) => {
         <div className="left" onClick={() => irAPagina("DataScience")}>
           <h3 className="project-title">Data Analyst</h3>
           <div className="divider"></div>
-          <p className="project-subtitle">Exploración de datos históricos sobre la penetración de Internet en Colombia entre 2016 y 2023</p>
+          <p className="project-subtitle">Exploración de datos históricos sobre la penetración de Internet en Colombia entre 2015 y 2023</p>
           <p className="project-tech">Python + Pandas + Jupyter Notebook + Matplotlib</p>
         </div>
         <div className="right" onClick={() => irAPagina("Pruebas")}>
