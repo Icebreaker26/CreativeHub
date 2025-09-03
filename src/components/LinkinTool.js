@@ -11,6 +11,27 @@ const LinkinTool = ({irAPagina}) => {
     return (
         <>
 
+<svg className="background-line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 600" preserveAspectRatio="none">
+  <path 
+    d="
+      M 3 0 
+      L 3 75
+      C 20 65, 40 85, 60 75
+      C 80 65, 100 85, 120 75
+      C 140 65, 160 85, 180 75
+      C 200 65, 220 85, 240 75
+      
+      
+    " 
+    stroke="white" 
+    strokeWidth="1" 
+    fill="none" 
+    vectorEffect="non-scaling-stroke"
+  />
+</svg>
+
+
+
 <div className="section-hero">
         <h1>The Linkin' Tool</h1>
         <div className="divider"></div>
@@ -24,7 +45,7 @@ const LinkinTool = ({irAPagina}) => {
 >
               Abrir Web
             </Button>
-             <Button variant="outline-light" style={{ width: "30%" }} onClick={() => irAPagina("Principal")}>
+             <Button variant="outline-light" style={{ width: "40%", whiteSpace: "nowrap" }} onClick={() => irAPagina("Principal")}>
               Volver a Inicio
             </Button>
           </div>
@@ -65,10 +86,10 @@ const LinkinTool = ({irAPagina}) => {
 
         <h1 style={{fontWeight:"700"}}>Previews</h1>
 
-    <img src={previewlinkin1} alt="Preview 1" style={{ width: "80%", marginTop: "2vh", marginBottom: "2vh", borderRadius: "8px" }} />
+    <img src={previewlinkin1} alt="Preview 1" style={{ width: "90%", marginTop: "2vh", marginBottom: "2vh", borderRadius: "8px" }} />
 
       <p style={{
-        width: "80%",
+        width: "90%",
         textAlign: "justify",
         fontStyle: "italic",
         color: "gray"
@@ -79,10 +100,10 @@ const LinkinTool = ({irAPagina}) => {
         la ganancia de recepción (Rx) en dBi, es posible calcular la potencia recibida por la antena de Rx en dBm.
     </p>
 
-          <img src={previewlinkin2} alt="Preview 1" style={{ width: "40%", marginTop: "2vh", marginBottom: "2vh", borderRadius: "8px" }} />
+          <img src={previewlinkin2} alt="Preview 1" style={{ width: "40%", marginTop: "2vh", marginBottom: "2vh", borderRadius: "8px", display: "block", margin: "0 auto" }} />
 
     <p style={{
-        width: "80%",
+        width: "90%",
         textAlign: "justify",
         fontStyle: "italic",
         color: "gray"
@@ -91,11 +112,11 @@ const LinkinTool = ({irAPagina}) => {
 
        </p>
 
-<img src={previewlinkin3} alt="Preview 1" style={{ width: "80%", marginTop: "2vh", marginBottom: "2vh", borderRadius: "8px" }} />
+<img src={previewlinkin3} alt="Preview 1" style={{ width: "90%", marginTop: "2vh", marginBottom: "2vh", borderRadius: "8px" }} />
 
     <div
   style={{
-    width: "80%",
+    width: "90%",
     textAlign: "justify",
     fontStyle: "italic",
     color: "gray",
@@ -122,11 +143,11 @@ const LinkinTool = ({irAPagina}) => {
 </div>
 
 
-<img src={previewlinkin4} alt="Preview 1" style={{ width: "80%", marginTop: "2vh", marginBottom: "2vh", borderRadius: "8px" }} />
+<img src={previewlinkin4} alt="Preview 1" style={{ width: "90%", marginTop: "2vh", marginBottom: "2vh", borderRadius: "8px" }} />
 
       <div
   style={{
-    width: "80%",
+    width: "90%",
     textAlign: "justify",
     fontStyle: "italic",
     color: "gray",
@@ -150,10 +171,10 @@ const LinkinTool = ({irAPagina}) => {
 </div>
 
 
-    <img src={previewlinkin5} alt="Preview 1" style={{ width: "80%", marginTop: "2vh", marginBottom: "2vh", borderRadius: "8px" }} />
+    <img src={previewlinkin5} alt="Preview 1" style={{ width: "90%", marginTop: "2vh", marginBottom: "2vh", borderRadius: "8px" }} />
 
       <p style={{
-        width: "80%",
+        width: "90%",
         textAlign: "justify",
         fontStyle: "italic",
         color: "gray"

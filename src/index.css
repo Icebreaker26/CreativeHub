@@ -351,7 +351,11 @@ animation: draw 5s linear infinite forwards;
 
 .sectionLink {
   padding-left: 5vw;
-  padding-right: 5vw;
+  padding-right: 2vw;
+}
 
+.sectionLink p {
+  width: 100%;
+  font-size: 100%;
 }
 }
