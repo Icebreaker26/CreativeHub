@@ -1,25 +1,39 @@
 {
   "files": {
     "main.css": "/CreativeHub/static/css/main.a34ababb.css",
-    "main.js": "/CreativeHub/static/js/main.420fc7e8.js",
-    "static/js/453.b4411807.chunk.js": "/CreativeHub/static/js/453.b4411807.chunk.js",
+    "main.js": "/CreativeHub/static/js/main.77297285.js",
+    "static/js/453.5db25eb5.chunk.js": "/CreativeHub/static/js/453.5db25eb5.chunk.js",
     "static/media/previewsuperdiesel1.png": "/CreativeHub/static/media/previewsuperdiesel1.1f0fa8ea48fdc9178cef.png",
     "static/media/previewsuperdiesel3.png": "/CreativeHub/static/media/previewsuperdiesel3.bedf0baf595419ab27ac.png",
+    "static/media/previewcoop11.png": "/CreativeHub/static/media/previewcoop11.925fc0eca59000b53833.png",
     "static/media/previewcove5.png": "/CreativeHub/static/media/previewcove5.e026b81d4e2eb89645d3.png",
+    "static/media/previewcoop7.png": "/CreativeHub/static/media/previewcoop7.c8b2e0d912ef8988f5eb.png",
+    "static/media/previewcoop12.png": "/CreativeHub/static/media/previewcoop12.cb077e948eb808e5a073.png",
     "static/media/previewcove4.png": "/CreativeHub/static/media/previewcove4.ee65803370f2c3bb1522.png",
+    "static/media/previewcoop13.png": "/CreativeHub/static/media/previewcoop13.644634939df67fee7ff8.png",
+    "static/media/previewcoop1.png": "/CreativeHub/static/media/previewcoop1.fe3003f62753954d7a13.png",
+    "static/media/previewcoop8.png": "/CreativeHub/static/media/previewcoop8.fc0ae3bcb716b42cf745.png",
     "static/media/previewradiacion2.png": "/CreativeHub/static/media/previewradiacion2.e5976ca9d0ac1fa7a5e8.png",
     "static/media/previewcove7.png": "/CreativeHub/static/media/previewcove7.0064008767133e0e565e.png",
     "static/media/previewcove1.png": "/CreativeHub/static/media/previewcove1.3e58c06489d35b95a3d5.png",
     "static/media/previewcove2.png": "/CreativeHub/static/media/previewcove2.9b020763570ac0023b97.png",
+    "static/media/previewcoop14.png": "/CreativeHub/static/media/previewcoop14.1627bcafcf6ffe5661ca.png",
+    "static/media/previewcoop10.png": "/CreativeHub/static/media/previewcoop10.ce92430e54d8e07c1569.png",
+    "static/media/previewcoop9.png": "/CreativeHub/static/media/previewcoop9.06be5dc7b322dbb5e07b.png",
     "static/media/previewammunation2.png": "/CreativeHub/static/media/previewammunation2.6b64cf3a518c4b9a08bb.png",
     "static/media/previewcampus5.png": "/CreativeHub/static/media/previewcampus5.fd01fbf59a369cb9f3b3.png",
     "static/media/previewammunation1.png": "/CreativeHub/static/media/previewammunation1.dc95c30d881065a2cb1d.png",
     "static/media/previewlinkin5.png": "/CreativeHub/static/media/previewlinkin5.7e372c8feede7c482230.png",
     "static/media/previewcove3.png": "/CreativeHub/static/media/previewcove3.bedaa1bc870bca89dd38.png",
     "static/media/previewradiacion1.png": "/CreativeHub/static/media/previewradiacion1.2fddc35a90966629550a.png",
+    "static/media/previewcoop5.png": "/CreativeHub/static/media/previewcoop5.412e8647852bb0f15031.png",
+    "static/media/previewcoop2.png": "/CreativeHub/static/media/previewcoop2.00085528cc922140d635.png",
+    "static/media/previewcoop3.png": "/CreativeHub/static/media/previewcoop3.561a2b8765f5ebd98431.png",
     "static/media/previewsuperdiesel2.png": "/CreativeHub/static/media/previewsuperdiesel2.438a295fd43228f4cf4b.png",
     "static/media/previewammunation5.png": "/CreativeHub/static/media/previewammunation5.d6530296c25e7456b69f.png",
+    "static/media/previewcoop6.png": "/CreativeHub/static/media/previewcoop6.de9b205e0bfc17f8a56f.png",
     "static/media/previewcampus1.png": "/CreativeHub/static/media/previewcampus1.5ea88d0ff226250659e1.png",
+    "static/media/previewcoop4.png": "/CreativeHub/static/media/previewcoop4.0f3476bd5fb333f63223.png",
     "static/media/previewcampus4.png": "/CreativeHub/static/media/previewcampus4.7531a5499ba93b2c6ef2.png",
     "static/media/previewradio1.png": "/CreativeHub/static/media/previewradio1.b01c340655c086c7e188.png",
     "static/media/previewlinkin4.png": "/CreativeHub/static/media/previewlinkin4.0033f5827f9d9bdc2c1f.png",
@@ -36,11 +50,11 @@
     "static/media/logo.svg": "/CreativeHub/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/CreativeHub/index.html",
     "main.a34ababb.css.map": "/CreativeHub/static/css/main.a34ababb.css.map",
-    "main.420fc7e8.js.map": "/CreativeHub/static/js/main.420fc7e8.js.map",
-    "453.b4411807.chunk.js.map": "/CreativeHub/static/js/453.b4411807.chunk.js.map"
+    "main.77297285.js.map": "/CreativeHub/static/js/main.77297285.js.map",
+    "453.5db25eb5.chunk.js.map": "/CreativeHub/static/js/453.5db25eb5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a34ababb.css",
-    "static/js/main.420fc7e8.js"
+    "static/js/main.77297285.js"
   ]
 }
